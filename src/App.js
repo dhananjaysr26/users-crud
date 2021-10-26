@@ -1,9 +1,10 @@
+import React from 'react'
+import AppRouter from "./routing/AppRouter"
 function App() {
   return (
-    <div className="App">
-    <h1>Hello</h1>
-</div>
-  );
+<AppRouter/>
+  )
 }
 
-export default App;
+export default App
+
